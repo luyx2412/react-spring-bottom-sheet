@@ -82,7 +82,7 @@ export const BottomSheet = forwardRef<RefHandles, Props & PortalProps>(
 
     return (
       <Portal containerRef={containerRef} data-rsbs-portal>
-        <div data-rsbs-global-backdrop />
+        {props.showGlobalBackdrop && <div data-rsbs-global-backdrop />}
         <_BottomSheet
           {...props}
           lastSnapRef={lastSnapRef}
