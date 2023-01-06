@@ -160,6 +160,8 @@ export type Props = {
 
   // tricky show backdrop customized dom element
   showGlobalBackdrop?: boolean
+
+  onClickBackdrop?: any
 } & Omit<React.PropsWithoutRef<JSX.IntrinsicElements['div']>, 'children'>
 
 export interface RefHandles {

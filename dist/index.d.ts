@@ -22,4 +22,5 @@ export declare const BottomSheet: React.ForwardRefExoticComponent<{
     skipInitialTransition?: boolean;
     expandOnContentDrag?: boolean;
     showGlobalBackdrop?: boolean;
+    onClickBackdrop?: any;
 } & Omit<Pick<React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>, "key" | keyof React.HTMLAttributes<HTMLDivElement>>, "children"> & PortalProps & React.RefAttributes<RefHandles>>;
