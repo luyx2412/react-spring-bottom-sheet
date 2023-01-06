@@ -141,6 +141,7 @@ export type Props = {
      * @default expandOnContentDrag === false
      */
     expandOnContentDrag?: boolean;
+    showGlobalBackdrop?: boolean;
 } & Omit<React.PropsWithoutRef<JSX.IntrinsicElements['div']>, 'children'>;
 export interface RefHandles {
     /**
